@@ -1,0 +1,75 @@
+:root{
+    --primary-color: rgba(66, 65, 68, 0.75);
+    --border-color:  rgb(168 , 168, 168 );
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#showcase {
+    content: '';
+    background: url('../../images/picography-laptop-notepad-pen-desk-small-1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.container{
+
+    background-color: rgba(29, 36, 36, 0.5);
+    min-height: 395px;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 10px;
+}
+div{
+    text-align: center;
+}
+h1{
+    background-color: rgb(26, 29, 29);
+    color: white;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+}
+.todo{
+    padding-left: 5px;
+    height: 30px;
+    width: 400px;
+    border: 1px solid var(--border-color);
+    border-radius:2px;
+}
+button{
+    background-color: rgb(54, 51, 53);
+    color: rgb(211, 211, 211);
+    font-size: 15px;
+    height: 30px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+}
+input:focus{
+    outline: 0;
+    border: 1px solid var(--border-color);
+}
+ul{
+    width: 450px;
+}
+li{
+    padding: 4px;
+    border-radius:2px;
+    width: 400px;
+    margin: 15px 0px 0px 15px;
+    color:var(--primary-color);
+    list-style-type:none;
+    background-color: rgb(250, 250, 250);
+    height: 30px;
+}
